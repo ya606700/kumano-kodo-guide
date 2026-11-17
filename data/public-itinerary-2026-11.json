@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17",
+  "version": "2026-11-17-r3",
   "trip_dates": {
     "start": "2026-11-20",
     "end": "2026-11-23",
@@ -33,7 +33,7 @@
           "status": "Date operation checked; connection after flight remains high risk"
         }
       ],
-      "critical": "Confirm Comfort Hotel late check-in and ask if they can provide a Dual Pilgrim booklet before the next morning; availability is not guaranteed."
+      "critical": "Kuroshio 31 is the key late-night connection. Comfort Hotel Kii Tanabe official information lists a 24-hour front desk; notify the hotel of the late arrival and call immediately if the flight/train is delayed. Before the first stamp, obtain the free Dual Pilgrim Credential, or get the exact alternative Tourist Association-issued booklet pre-approved by the Tanabe City Kumano Tourism Bureau. The JPY 100 / 41-stamp Wakayama Prefecture Nakahechi booklet is NOT eligible for Dual Pilgrim certification."
     },
     {
       "day": 2,
@@ -78,7 +78,7 @@
         "official_walking_time": "2-3 hours",
         "recommended_buffer": "At least 3.5 hours for stamps, rest, photos and shrine visit"
       },
-      "critical": "Physical Dual Pilgrim booklet must be obtained before early departure. Express bus first come and may fill. Confirm hotel dinner and transfers.",
+      "critical": "Have an accepted stamp record before boarding/starting: free Dual Pilgrim Credential is the confirmed option. Official FAQ Q2 permits a Tourist Association-issued booklet only if the exact booklet is eligible; obtain written confirmation before the first stamp. Do NOT use the JPY 100 / 41-stamp Wakayama Prefecture Nakahechi booklet: the Bureau explicitly says it does not qualify for Dual Pilgrim certification. Hotel Yamayuri: contact if arriving after 18:00; latest check-in 19:00; front desk starts 07:00; prepay room and adult bath tax JPY 150/person the previous night if departing before 07:00.",
       "bus_return": [
         {
           "mode": "Local bus route 301",
@@ -194,7 +194,7 @@
           "status": "Holiday timetable reference; verify departure board on 2026-11-23"
         }
       ],
-      "critical": "Registration cannot be completed by mail/email. If the 09:17 leave-by time is missed, prioritize return flight; future registration requires personal attendance at an approved location."
+      "critical": "Aim to queue outside Tanabe City Kumano Tourism Center by 08:35. Bring the free Dual Pilgrim Credential or the exact alternative Tourist Association-issued booklet pre-approved by the Bureau, plus Santiago credential/proof. If using the free Credential, Hongu completion stamp must be in both route stamp-05 and first-page COMPLETION OF PILGRIMAGE fields. The JPY 100 / 41-stamp Wakayama Prefecture Nakahechi booklet is not eligible. Hard leave-by time is 09:17 for 09:32 Kuroshio 14; prioritize the flight if delayed."
     }
   ],
   "offline": {
@@ -216,7 +216,17 @@
       "https://www.env.go.jp/park/office.html",
       "https://www.mlit.go.jp/en/koku/uas.html",
       "https://www.npa.go.jp/bureau/security/kogatamujinki/"
-    ]
+    ],
+    "no_fly_sites_without_written_site_permission": [
+      "Kumano Hongu Taisha",
+      "Oyunohara",
+      "Kumano Hayatama Taisha",
+      "Kumano Nachi Taisha",
+      "Seiganto-ji",
+      "Hiro-jinja / Nachi Waterfall",
+      "World Heritage core trail and managed facilities along the route"
+    ],
+    "operational_rule": "Do not take off from or fly over these shrine/temple/managed areas unless the relevant land or facility manager has given prior written permission and all MLIT/NPA legal checks are satisfied. This is a site-permission restriction, not a claim that all such places are categorically designated no-fly airspace under aviation law."
   },
   "lodging_status": {
     "status": "All three nights booked",
@@ -225,13 +235,13 @@
         "day": 1,
         "name": "Comfort Hotel Kii Tanabe",
         "status": "booked",
-        "remaining_check": "late arrival / front desk acceptance; inquire about credential booklet availability"
+        "remaining_check": "Notify hotel of 23:41 late arrival; official front desk is 24 hours. Ask whether it can obtain/hold two free Dual Pilgrim Credentials. If not, confirm with the Tanabe City Kumano Tourism Bureau which exact Tourist Association-issued alternative booklet is eligible; the JPY 100 / 41-stamp Wakayama Prefecture booklet is not eligible."
       },
       {
         "day": 2,
         "name": "Hotel Yamayuri",
         "status": "booked",
-        "remaining_check": "dinner seating time, shuttle and luggage service details"
+        "remaining_check": "Dinner/shuttle/luggage details. Contact hotel for arrival after 18:00; latest check-in 19:00. Front desk from 07:00; settle room and adult bath tax ¥150/person the previous night for an early departure."
       },
       {
         "day": 3,
@@ -240,5 +250,43 @@
         "remaining_check": "arrival / luggage storage logistics only"
       }
     ]
+  },
+  "credential_options": {
+    "before_first_stamp": "Before collecting the first stamp, obtain one accepted Kumano stamp record per pilgrim. The free Dual Pilgrim Credential is the confirmed, recommended option.",
+    "option_a": {
+      "name": "Free Dual Pilgrim Credential",
+      "cost_jpy": 0,
+      "status": "confirmed_official_option",
+      "instructions": "Use the Kumano side for the 10 required stamps. Stamp Kumano Hongu Taisha in both the route-list position (stamp 05) and the first-page COMPLETION OF PILGRIMAGE field on the Kumano side."
+    },
+    "option_b": {
+      "name": "A specific Tourist Association-issued stamp booklet accepted under official FAQ Q2",
+      "status": "conditional_requires_confirmation_of_exact_booklet",
+      "instructions": "The official FAQ allows a Tourist Association-issued stamp booklet for the Kumano side when paired with a Santiago Cathedral-recognized Camino credential. The FAQ does not make every stamp book eligible. Before using one, send its cover and inside pages to the Tanabe City Kumano Tourism Bureau and obtain confirmation that this exact booklet and its stamp fields qualify."
+    },
+    "not_eligible_substitute": {
+      "name": "Wakayama Prefecture Nakahechi stamp booklet (41 stamps, JPY 100)",
+      "status": "not_eligible_for_dual_pilgrim_certification",
+      "instructions": "This is a separate Wakayama Prefecture stamp campaign. The Tanabe City Kumano Tourism Bureau explicitly states that completion of this booklet does NOT qualify for Dual Pilgrim certification. Do not use it as the backup credential."
+    },
+    "official_faq": "https://www.tb-kumano.jp/tw/kumano-kodo/dual-pilgrim/registration/",
+    "separate_41_stamp_book_explanation": "https://www.tb-kumano.jp/en/2024/03/08/12591/",
+    "stock_note": "Ask Comfort Hotel Kii Tanabe before arrival whether it can obtain and hold two free Dual Pilgrim Credentials. If not, ask the Bureau to identify and confirm the exact eligible Tourist Association-issued stamp booklet. Do not assume the JPY 100 / 41-stamp Wakayama Prefecture booklet is eligible."
+  },
+  "coordinate_changes": {
+    "stamp-06": {
+      "lat": 33.8369,
+      "lon": 135.7749,
+      "label": "Oyunohara giant torii entrance vicinity",
+      "confidence": "Approximate navigation point, not verified as exact stamp stand",
+      "note": "The former centroid point was replaced with an entrance-area waypoint. Confirm the actual stamp stand on site."
+    },
+    "stamp-10": {
+      "lat": 33.673761,
+      "lon": 135.888166,
+      "label": "Hiro-jinja historic place-name point",
+      "confidence": "High for shrine landmark; not exact stamp stand",
+      "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000287200.html"
+    }
   }
 }

@@ -119,8 +119,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.7744503021,
-          33.8343477267
+          135.7749,
+          33.8369
         ]
       },
       "properties": {
@@ -129,10 +129,12 @@
         "day": 2,
         "name": "舊社地大齋原",
         "name_en": "Oyunohara",
-        "note": "第 6 顆章；巨型鳥居與杉木林是本宮段收尾，留意境內參拜禮儀。",
-        "coordinate_source": "Kiiminpo Open Data / KiiLife, OSM-based POI record",
-        "source_url": "https://www.kiilife.jp/od/location/page/15",
-        "coordinate_confidence": "高（地方開放資料座標；代表點在舊社地範圍內）"
+        "note": "第 6 顆章；大鳥居入口附近的近似導航點，不是印章台精確座標。到場依現場標示及工作人員指示。",
+        "coordinate_source": "Approximate entrance-area waypoint supplied for this itinerary; not a surveyed stamp-stand coordinate",
+        "source_url": "https://www.hongu.jp/kumanokodo/hongu-taisya/ooyunohara/",
+        "coordinate_confidence": "低至中（入口附近近似導航點；不是印章台精確位置）",
+        "lat": 33.8369,
+        "lon": 135.7749
       }
     },
     {
@@ -207,8 +209,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.88767,
-          33.6742
+          135.888166,
+          33.673761
         ]
       },
       "properties": {
@@ -217,10 +219,12 @@
         "day": 3,
         "name": "飛瀧神社",
         "name_en": "Hiro-jinja / Nachi Falls",
-        "note": "第 10 顆章；位於那智瀑布下方，與熊野那智大社是不同參拜點。",
-        "coordinate_source": "Mapcarta location record based on OpenStreetMap",
-        "source_url": "https://mapcarta.com/W713718304",
-        "coordinate_confidence": "中高（OSM-based place point；以飛瀧神社入口及現場印章指示為準）"
+        "note": "第 10 顆章；Geoshape 飛瀧神社地標代表座標，非印章台精確座標；依現場指示找章。",
+        "coordinate_source": "National Institute of Informatics / Geoshape, Japanese Historical Place Name database",
+        "source_url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000287200.html",
+        "coordinate_confidence": "高（神社代表地標座標；非印章台精確座標）",
+        "lat": 33.673761,
+        "lon": 135.888166
       }
     }
   ]

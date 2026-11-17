@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17",
+  "version": "2026-11-17-r3",
   "route": {
     "name": "Hosshinmon-oji to Kumano Hongu Taisha then Oyunohara",
     "distance_km": 7.5,
@@ -8,7 +8,7 @@
     "map_pdf": "https://www2.tb-kumano.jp/kumano-kodo/pdf/Kumano-Kodo-Nakahechi-Route-Maps-Hongu.pdf"
   },
   "gpx_contains": "10 stamp location waypoints only; no route track geometry",
-  "coordinate_caveat": "Coordinates are representative landmark locations and do not guarantee the exact physical stamp stand location.",
+  "coordinate_caveat": "Coordinates are navigation reference points for named landmarks, not guaranteed exact stamp-stand coordinates. Stamp stands can move; follow official signs and ask shrine/temple staff. Stamp-06 is an approximate Oyunohara giant-torii entrance vicinity point; stamp-10 is the Geoshape historic place-name representative point for Hiro-jinja.",
   "points": [
     {
       "id": "stamp-01",
@@ -81,12 +81,12 @@
       "day": 2,
       "name": "舊社地大齋原",
       "name_en": "Oyunohara",
-      "lat": 33.8343477267,
-      "lon": 135.7744503021,
-      "note": "第 6 顆章；巨型鳥居與杉木林是本宮段收尾，留意境內參拜禮儀。",
-      "coordinate_source": "Kiiminpo Open Data / KiiLife, OSM-based POI record",
-      "source_url": "https://www.kiilife.jp/od/location/page/15",
-      "coordinate_confidence": "高（地方開放資料座標；代表點在舊社地範圍內）"
+      "lat": 33.8369,
+      "lon": 135.7749,
+      "note": "第 6 顆章；座標為大鳥居入口附近的近似導航點，並非官方公布的印章台精確位置。到場依現地標示及人員指示找章。",
+      "coordinate_source": "Approximate entrance-area waypoint supplied for this itinerary; not a surveyed stamp-stand coordinate",
+      "source_url": "https://www.hongu.jp/kumanokodo/hongu-taisya/ooyunohara/",
+      "coordinate_confidence": "低至中（入口附近近似導航點；不是印章台精確位置）"
     },
     {
       "id": "stamp-07",
@@ -133,12 +133,12 @@
       "day": 3,
       "name": "飛瀧神社",
       "name_en": "Hiro-jinja / Nachi Falls",
-      "lat": 33.6742,
-      "lon": 135.88767,
-      "note": "第 10 顆章；位於那智瀑布下方，與熊野那智大社是不同參拜點。",
-      "coordinate_source": "Mapcarta location record based on OpenStreetMap",
-      "source_url": "https://mapcarta.com/W713718304",
-      "coordinate_confidence": "中高（OSM-based place point；以飛瀧神社入口及現場印章指示為準）"
+      "lat": 33.673761,
+      "lon": 135.888166,
+      "note": "第 10 顆章；採 Geoshape「日本歷史地名大系」飛瀧神社代表座標。這是神社地標位置，不保證與印章木台完全重合。",
+      "coordinate_source": "National Institute of Informatics / Geoshape, Japanese Historical Place Name database",
+      "source_url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000287200.html",
+      "coordinate_confidence": "高（神社代表地標座標；非印章台精確座標）"
     }
   ],
   "map_references": [
@@ -177,5 +177,16 @@
       "external official web pages"
     ],
     "note": "Service worker caches first-party site resources after first successful HTTPS visit. Download official PDF and offline basemap separately in the chosen navigation app."
+  },
+  "credential_record_options": {
+    "free_dual_pilgrim_credential": "Confirmed option. Stamp Kumano Hongu Taisha both in route position 05 and on the first page of the Kumano side under COMPLETION OF PILGRIMAGE.",
+    "association_issued_booklet": "Official FAQ Q2 allows a Tourist Association-issued stamp booklet paired with a Santiago-recognized credential, but the exact booklet must be pre-approved by the Tanabe City Kumano Tourism Bureau. Do not assume every association or Nakahechi booklet is eligible.",
+    "not_eligible": "The JPY 100 / 41-stamp Wakayama Prefecture Nakahechi booklet belongs to a separate stamp campaign and is explicitly not eligible for Dual Pilgrim certification.",
+    "official_faq": "https://www.tb-kumano.jp/tw/kumano-kodo/dual-pilgrim/registration/",
+    "not_eligible_booklet_source": "https://www.tb-kumano.jp/en/2024/03/08/12591/"
+  },
+  "coordinate_revision": {
+    "stamp-06": "Approximate Oyunohara giant-torii entrance vicinity; field verification required.",
+    "stamp-10": "Updated to Geoshape Hiro-jinja representative point 33.673761,135.888166; this is not a guaranteed stamp-stand coordinate."
   }
 }

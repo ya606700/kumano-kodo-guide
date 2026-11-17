@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="Kumano Kodo Companion Guide" xmlns="http://www.topografix.com/GPX/1/1">
-  <metadata><name>熊野古道雙朝聖 10 顆印章位置</name><desc>10 個集章地標 waypoint；沒有包含官方步道路線軌跡，請搭配官方 PDF 地圖及離線底圖使用。</desc></metadata>
+<?xml version='1.0' encoding='utf-8'?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="Kumano Kodo Companion Guide">
+  <metadata>
+    <name>熊野古道雙朝聖 10 顆印章位置</name>
+    <desc>10 個集章地標 waypoint；沒有包含官方步道路線軌跡，請搭配官方 PDF 地圖及離線底圖使用。</desc>
+  </metadata>
   <wpt lat="33.861761" lon="135.720693">
     <name>01 發心門王子 / Hosshinmon-oji</name>
     <desc>第 1 顆章｜Day 2。第 1 顆章；起登點，先在此確認印章台。 座標來源：National Institute of Japanese Literature / Geoshape, Historic Place Name data。座標代表地標點，不保證是印章台精確位置。</desc>
@@ -26,9 +29,9 @@
     <desc>第 5 顆章｜Day 2。第 5 顆章；先完成參拜，再按現場指示找印章台。 座標來源：Kiiminpo Open Data / KiiLife, OSM-based POI record。座標代表地標點，不保證是印章台精確位置。</desc>
     <type>Official dual-pilgrim stamp point</type>
   </wpt>
-  <wpt lat="33.8343477267" lon="135.7744503021">
+  <wpt lat="33.836900" lon="135.774900">
     <name>06 舊社地大齋原 / Oyunohara</name>
-    <desc>第 6 顆章｜Day 2。第 6 顆章；巨型鳥居與杉木林是本宮段收尾，留意境內參拜禮儀。 座標來源：Kiiminpo Open Data / KiiLife, OSM-based POI record。座標代表地標點，不保證是印章台精確位置。</desc>
+    <desc>第 6 顆章；大鳥居入口附近的近似導航點，不是印章台精確座標。到場依現場標示及工作人員指示。</desc>
     <type>Official dual-pilgrim stamp point</type>
   </wpt>
   <wpt lat="33.732178" lon="135.983673">
@@ -46,9 +49,9 @@
     <desc>第 9 顆章｜Day 3。第 9 顆章；與那智大社相鄰，留意殿堂、參道與三重塔視角。 座標來源：National Institute of Japanese Literature / Geoshape, Historic Place Name data。座標代表地標點，不保證是印章台精確位置。</desc>
     <type>Official dual-pilgrim stamp point</type>
   </wpt>
-  <wpt lat="33.6742" lon="135.88767">
+  <wpt lat="33.673761" lon="135.888166">
     <name>10 飛瀧神社 / Hiro-jinja / Nachi Falls</name>
-    <desc>第 10 顆章｜Day 3。第 10 顆章；位於那智瀑布下方，與熊野那智大社是不同參拜點。 座標來源：Mapcarta location record based on OpenStreetMap。座標代表地標點，不保證是印章台精確位置。</desc>
+    <desc>第 10 顆章；Geoshape 飛瀧神社地標代表座標，非印章台精確座標；依現場指示找章。</desc>
     <type>Official dual-pilgrim stamp point</type>
   </wpt>
 </gpx>

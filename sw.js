@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kumano-guide-github-pages-v4';
+const CACHE_NAME = 'kumano-guide-github-pages-v5';
 const BASE_URL = new URL('./', self.registration.scope);
 const CORE_ASSETS = [
   './', './index.html', './styles.css', './app.js', './manifest.webmanifest', './icon.svg',

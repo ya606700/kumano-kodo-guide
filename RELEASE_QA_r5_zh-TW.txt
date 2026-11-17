@@ -1,0 +1,19 @@
+日本朝聖之路｜r5 Google Maps 修正版檢查報告
+
+檢查項目：
+- HTML 可解析：通過
+- 重複 HTML id：0
+- 本機 href 缺檔：0
+- Google Maps 單點連結：37（全部使用 Maps URLs api=1 query）
+- CSV 資料筆數：37
+- My Maps 建立入口：存在
+- CSV 匯入欄位提示：Location / Name
+- 手機開啟自訂地圖說明：存在
+- Service Worker Cache：v5
+
+限制說明：
+- 無法由靜態網站自動將 CSV 寫入使用者 Google 帳號；需先登入 My Maps 手動匯入一次。
+- My Maps 匯入後才能在手機 Google Maps 的 Saved/You → Maps 查看完整 37 個圖釘。
+- 單點定位按鈕只開啟各自的地點，不會顯示整組圖釘。
+
+- Google Maps 匯入教學檔：GOOGLE_MAPS_SETUP_r5_zh-TW.txt（已包含）

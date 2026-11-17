@@ -1,0 +1,35 @@
+熊野古道 r5｜Google Maps 全部 37 個圖釘設定教學
+
+先說明：網站不能只靠一個網址，就把全部地點自動寫進你的個人 Google 帳號。需要先在 Google My Maps 匯入 CSV 一次。之後手機 Google Maps 才會顯示同一張自訂地圖。
+
+【第一次設定：用電腦完成】
+1. 在網站「離線地圖」→「把旅程地點一次放進 Google 地圖」區塊，按「① 下載全部 37 個地點 CSV」。
+2. 確認檔案已下載到電腦：kumano-google-maps-places-2026-11.csv。
+3. 按「② 建立 Google 我的地圖（匯入 CSV）」；或直接開 https://www.google.com/maps/d/u/0/create 。
+4. 登入你希望手機 Google Maps 使用的 Google 帳號。
+5. 在新地圖左側圖層按「匯入」，選擇剛下載的 CSV。
+6. 系統問位置欄位時選 Location；問標題欄位時選 Name。
+7. 等候匯入完成。地圖會出現 37 個地點，可按 Category 分組或改顏色。
+8. 將地圖命名為「熊野古道 2026」，確認已儲存到自己的 Google 帳號。
+
+【手機查看全部圖釘】
+1. 手機開啟 Google Maps。
+2. 登入與電腦匯入時相同的 Google 帳號。
+3. 點「已儲存／你（You）」→「地圖（Maps）」。
+4. 點「熊野古道 2026」，即可在地圖上查看完整圖釘。
+
+【如果手機仍然沒有地圖】
+- 先確認手機 Google Maps 登入帳號和電腦匯入帳號完全相同。
+- 在電腦重新開啟 Google My Maps，確認地圖已完成匯入且已儲存。
+- 關閉再重新開啟 Google Maps，或重新登入正確帳號。
+- Google My Maps 的建立／匯入請在電腦瀏覽器進行；手機 Google Maps 用於查看已建立的地圖。
+
+【網站上的單點定位按鈕】
+每一列的「單點定位」只會開啟該一個地點，不會一次顯示全部 37 點。若要整張圖釘總覽，請先完成上面的 CSV 匯入。
+
+【本 CSV 內容】
+3 間住宿、10 顆印章、7 個拍照／觀景點、8 間推薦餐廳、9 個交通目的地，共 37 筆。
+
+Google 官方說明：
+- 建立／匯入 My Maps：https://support.google.com/mymaps/answer/3024836
+- 在手機 Google Maps 查看 My Maps：https://support.google.com/maps/answer/3045850

@@ -238,3 +238,11 @@ h1 em { color: var(--vermilion); font-style: normal; }
   .map-place-list li { grid-template-columns: 24px minmax(0,1fr); }
   .map-link { grid-column: 2; justify-self: start; margin-top: 2px; }
 }
+
+
+/* r5 Google Maps import clarification */
+.map-mobile-hint { margin-top: 14px; padding: 14px 16px; border: 1px solid rgba(24,72,59,.18); border-radius: 8px; color: var(--forest-deep); background: #f4eee1; font-size: 12px; line-height: 1.8; }
+.map-limit-note p { margin: 8px 0 0; color: #765a29; font-size: 11px; line-height: 1.75; }
+.map-pack-grid > .map-group-note { grid-column: 1 / -1; margin: 0; padding: 10px 13px; border-radius: 7px; background: rgba(24,72,59,.06); }
+.map-pack-actions .button { min-height: 44px; }
+@media (max-width: 520px) { .map-mobile-hint { padding: 12px; } .map-pack-grid > .map-group-note { grid-column: auto; } }

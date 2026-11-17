@@ -29,3 +29,11 @@
 - `offline/kumano-google-maps-places-2026-11.csv` 收錄住宿、10 顆印章、拍攝點、餐廳與交通目的地。
 - 將 CSV 匯入 Google My Maps 後，可在 Google Maps App「已儲存 → 地圖」查看。
 - 官方 Maps URLs 的多站導航有平台限制，因此每一個 POI 另有單點定位；Google Maps 的步行路線不可替代官方熊野古道步道圖。
+
+
+## Google Maps（r5）
+
+- `offline/kumano-google-maps-places-2026-11.csv` 包含 37 個住宿、章點、攝影點、餐廳及交通目的地。
+- 先在電腦 Google My Maps 建立新地圖並匯入 CSV；選 `Location` 作定位欄位、`Name` 作標題欄位。
+- 匯入後，手機 Google Maps 登入相同帳號，在「已儲存／你 → 地圖」開啟自訂地圖。
+- 網站的「單點定位」按鈕只開一個地點；它不會自動將全部圖釘寫入個人帳號。

@@ -1,0 +1,1 @@
+# kumano-kodo-guide

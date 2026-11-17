@@ -21,3 +21,11 @@
 - `data/`：行程資料與離線地圖點位資料
 - `offline/`：GPX、GeoJSON 與離線使用說明
 - `sw.js`：網站核心資源快取
+
+
+## Google Maps 地點整合（r4）
+
+- 網站離線地圖區新增「全部地點匯入 Google 我的地圖」按鈕及各分類單點地圖連結。
+- `offline/kumano-google-maps-places-2026-11.csv` 收錄住宿、10 顆印章、拍攝點、餐廳與交通目的地。
+- 將 CSV 匯入 Google My Maps 後，可在 Google Maps App「已儲存 → 地圖」查看。
+- 官方 Maps URLs 的多站導航有平台限制，因此每一個 POI 另有單點定位；Google Maps 的步行路線不可替代官方熊野古道步道圖。

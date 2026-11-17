@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17-r3",
+  "version": "2026-11-18-r4-google-maps",
   "trip_dates": {
     "start": "2026-11-20",
     "end": "2026-11-23",
@@ -288,5 +288,18 @@
       "confidence": "High for shrine landmark; not exact stamp stand",
       "source": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000287200.html"
     }
+  },
+  "google_maps": {
+    "one_map_import_csv": "../offline/kumano-google-maps-places-2026-11.csv",
+    "records": 37,
+    "categories": [
+      "住宿",
+      "官方印章點",
+      "拍照／觀景點",
+      "推薦餐廳",
+      "交通目的地"
+    ],
+    "usage": "Import CSV to Google My Maps using Location as position and Name as title; then open in Google Maps Saved > Maps.",
+    "limitations": "Maps URL cannot directly add all items to a users Saved list. Directions links are public-transit references only; official operators remain authoritative for dated timetables."
   }
 }

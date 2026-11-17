@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17-r3",
+  "version": "2026-11-18-r4-google-maps",
   "route": {
     "name": "Hosshinmon-oji to Kumano Hongu Taisha then Oyunohara",
     "distance_km": 7.5,
@@ -188,5 +188,18 @@
   "coordinate_revision": {
     "stamp-06": "Approximate Oyunohara giant-torii entrance vicinity; field verification required.",
     "stamp-10": "Updated to Geoshape Hiro-jinja representative point 33.673761,135.888166; this is not a guaranteed stamp-stand coordinate."
+  },
+  "google_maps_import": {
+    "file": "../offline/kumano-google-maps-places-2026-11.csv",
+    "record_count": 37,
+    "columns": {
+      "title": "Name",
+      "location": "Location",
+      "category": "Category",
+      "day": "Day",
+      "description": "Notes"
+    },
+    "notes": "CSV is for Google My Maps import. Location field contains coordinates or addresses/place names. Some place names are geocoded by My Maps; verify unmatched entries manually.",
+    "individual_maps_urls": "The website also provides one-tap Google Maps search links for every hotel, stamp point, photo spot and restaurant."
   }
 }

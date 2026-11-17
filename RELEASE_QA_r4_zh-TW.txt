@@ -1,0 +1,32 @@
+日本朝聖之路｜r4 Google Maps 整合版檢查報告
+日期：2026-11-18
+
+檢查摘要
+- HTML 可解析，未發現重複 ID。
+- JSON：data/offline-map-manifest.json、data/public-itinerary-2026-11.json 均可正常解析。
+- GPX XML 可正常解析；維持 10 個 stamp waypoints。
+- GeoJSON 可正常解析；維持 10 個 features。
+- My Maps CSV：37 筆地點、5 大類，沒有空白 Location 欄位。
+- Google Maps 連結全部含 api=1，沒有超過 2,048 字元的連結。
+- 網站本機資源連結沒有缺檔。
+- 攝影章節的大齋原、飛瀧神社連結已同步修正至 r3 座標。
+- Service Worker cache version 更新為 v4，並將 My Maps CSV 納入核心快取。
+
+新增 Google Maps 整合
+- 住宿：3 個地點
+- 官方印章：10 個地點
+- 攝影／觀景點：7 個地點
+- 路線附近推薦餐廳：8 個地點
+- 交通轉乘目的地：9 個地點
+- 每一項都有 Google Maps 單點定位連結。
+- 新增 CSV，供 Google My Maps 匯入，讓全部 37 筆地點同時顯示在同一張自訂地圖上。
+
+重要限制
+Google Maps Maps URLs 可開啟單點搜尋或多站路線，但不能由一般網站連結直接將整批地點寫入使用者個人的 Saved 清單。Google My Maps 官方支援 CSV、KML、GPX 等匯入，因此本版採 CSV 匯入方式；匯入後可在 Google Maps App 的「已儲存／Saved → 地圖／Maps」查看。
+
+Google Maps 導航及地點注意
+- Day 2 熊野古道步道請使用官方 PDF、路標及 GPX 參考點；Google Maps 的步行路線不可視為官方古道路線。
+- Day 6 大齋原圖釘是大鳥居入口附近近似定位，不是印章台官方精確 GPS。
+- Day 10 飛瀧神社圖釘是 Geoshape 神社代表座標，不是印章台官方精確 GPS。
+- 三軒茶屋跡及「ちょっとよりみち展望台」以日文地名／地址匯入 My Maps；若 Google 自動定位結果不準，請在地圖上手動確認。
+- 餐廳營業時間可能臨時變更；CSV 備註已提醒出發前再次確認。

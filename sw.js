@@ -1,11 +1,11 @@
-const CACHE_NAME = 'kumano-guide-github-pages-v3';
+const CACHE_NAME = 'kumano-guide-github-pages-v4';
 const BASE_URL = new URL('./', self.registration.scope);
 const CORE_ASSETS = [
   './', './index.html', './styles.css', './app.js', './manifest.webmanifest', './icon.svg',
   './robots.txt', './sitemap.xml',
   './data/offline-map-manifest.json', './data/public-itinerary-2026-11.json',
   './offline/kumano-dual-pilgrim-stamps.gpx', './offline/kumano-dual-pilgrim-stamps.geojson',
-  './offline/README-zh-TW.txt'
+  './offline/README-zh-TW.txt', './offline/kumano-google-maps-places-2026-11.csv'
 ].map(path => new URL(path, BASE_URL).href);
 
 self.addEventListener('install', event => {

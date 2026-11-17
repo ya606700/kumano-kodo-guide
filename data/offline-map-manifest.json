@@ -1,0 +1,181 @@
+{
+  "version": "2026-11-17",
+  "route": {
+    "name": "Hosshinmon-oji to Kumano Hongu Taisha then Oyunohara",
+    "distance_km": 7.5,
+    "walking_time": "2-3 hours (official baseline; allow at least 3.5h with stamps, photos and visits)",
+    "source": "https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/hosshinmon-oji-to-kumano-hongu-taisha/",
+    "map_pdf": "https://www2.tb-kumano.jp/kumano-kodo/pdf/Kumano-Kodo-Nakahechi-Route-Maps-Hongu.pdf"
+  },
+  "gpx_contains": "10 stamp location waypoints only; no route track geometry",
+  "coordinate_caveat": "Coordinates are representative landmark locations and do not guarantee the exact physical stamp stand location.",
+  "points": [
+    {
+      "id": "stamp-01",
+      "order": 1,
+      "day": 2,
+      "name": "發心門王子",
+      "name_en": "Hosshinmon-oji",
+      "lat": 33.861761,
+      "lon": 135.720693,
+      "note": "第 1 顆章；起登點，先在此確認印章台。",
+      "coordinate_source": "National Institute of Japanese Literature / Geoshape, Historic Place Name data",
+      "source_url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000272600.html",
+      "coordinate_confidence": "高（資料集列出該歷史地點座標；印章台可能與代表點有數公尺差異）"
+    },
+    {
+      "id": "stamp-02",
+      "order": 2,
+      "day": 2,
+      "name": "水吞王子",
+      "name_en": "Mizunomi-oji",
+      "lat": 33.8584065143,
+      "lon": 135.7369852066,
+      "note": "第 2 顆章；留意舊校舍地與石碑位置。",
+      "coordinate_source": "Kiiminpo Open Data / KiiLife, OSM-based POI record",
+      "source_url": "https://www.kiilife.jp/od/location/page/15",
+      "coordinate_confidence": "高（地方開放資料座標，仍以現場印章台為準）"
+    },
+    {
+      "id": "stamp-03",
+      "order": 3,
+      "day": 2,
+      "name": "伏拜王子",
+      "name_en": "Fushiogami-oji",
+      "lat": 33.86025,
+      "lon": 135.756788,
+      "note": "第 3 顆章；官方指出此處可首次望見本宮舊社地方向，是本日最重要觀景停留點。",
+      "coordinate_source": "National Institute of Japanese Literature / Geoshape, Historic Place Name data",
+      "source_url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000273300.html",
+      "coordinate_confidence": "高（歷史地名資料集座標；觀景平台與印章台位置以現場為準）"
+    },
+    {
+      "id": "stamp-04",
+      "order": 4,
+      "day": 2,
+      "name": "祓殿王子",
+      "name_en": "Haraido-oji",
+      "lat": 33.841691,
+      "lon": 135.772991,
+      "note": "第 4 顆章；位於本宮大社前約 50 公尺，容易走過頭，請在進本宮前留意。",
+      "coordinate_source": "Kiiminpo Open Data / KiiLife, OSM-based POI record",
+      "source_url": "https://www.kiilife.jp/od/location/page/15",
+      "coordinate_confidence": "高（地方開放資料座標；印章台位置可能調整）"
+    },
+    {
+      "id": "stamp-05",
+      "order": 5,
+      "day": 2,
+      "name": "熊野本宮大社",
+      "name_en": "Kumano Hongu Taisha",
+      "lat": 33.8406014,
+      "lon": 135.7736858,
+      "note": "第 5 顆章；先完成參拜，再按現場指示找印章台。",
+      "coordinate_source": "Kiiminpo Open Data / KiiLife, OSM-based POI record",
+      "source_url": "https://www.kiilife.jp/od/location/4713",
+      "coordinate_confidence": "高（地方開放資料座標；院內印章位置以現場為準）"
+    },
+    {
+      "id": "stamp-06",
+      "order": 6,
+      "day": 2,
+      "name": "舊社地大齋原",
+      "name_en": "Oyunohara",
+      "lat": 33.8343477267,
+      "lon": 135.7744503021,
+      "note": "第 6 顆章；巨型鳥居與杉木林是本宮段收尾，留意境內參拜禮儀。",
+      "coordinate_source": "Kiiminpo Open Data / KiiLife, OSM-based POI record",
+      "source_url": "https://www.kiilife.jp/od/location/page/15",
+      "coordinate_confidence": "高（地方開放資料座標；代表點在舊社地範圍內）"
+    },
+    {
+      "id": "stamp-07",
+      "order": 7,
+      "day": 3,
+      "name": "熊野速玉大社",
+      "name_en": "Kumano Hayatama Taisha",
+      "lat": 33.732178,
+      "lon": 135.983673,
+      "note": "第 7 顆章；新宮市區參拜點，注意回 JR 新宮站步行時間。",
+      "coordinate_source": "National Institute of Japanese Literature / Geoshape, Historic Place Name data",
+      "source_url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000293600.html",
+      "coordinate_confidence": "高（歷史地名資料集座標；境內章台位置以現場為準）"
+    },
+    {
+      "id": "stamp-08",
+      "order": 8,
+      "day": 3,
+      "name": "熊野那智大社",
+      "name_en": "Kumano Nachi Taisha",
+      "lat": 33.668651,
+      "lon": 135.890133,
+      "note": "第 8 顆章；那智山上段，預留參拜與移動時間。",
+      "coordinate_source": "National Institute of Japanese Literature / Geoshape, Historic Place Name data",
+      "source_url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000285000.html",
+      "coordinate_confidence": "高（歷史地名資料集座標；境內章台位置以現場為準）"
+    },
+    {
+      "id": "stamp-09",
+      "order": 9,
+      "day": 3,
+      "name": "青岸渡寺",
+      "name_en": "Seiganto-ji",
+      "lat": 33.669148,
+      "lon": 135.889849,
+      "note": "第 9 顆章；與那智大社相鄰，留意殿堂、參道與三重塔視角。",
+      "coordinate_source": "National Institute of Japanese Literature / Geoshape, Historic Place Name data",
+      "source_url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/31/310000285700.html",
+      "coordinate_confidence": "高（歷史地名資料集座標；寺內章台位置以現場為準）"
+    },
+    {
+      "id": "stamp-10",
+      "order": 10,
+      "day": 3,
+      "name": "飛瀧神社",
+      "name_en": "Hiro-jinja / Nachi Falls",
+      "lat": 33.6742,
+      "lon": 135.88767,
+      "note": "第 10 顆章；位於那智瀑布下方，與熊野那智大社是不同參拜點。",
+      "coordinate_source": "Mapcarta location record based on OpenStreetMap",
+      "source_url": "https://mapcarta.com/W713718304",
+      "coordinate_confidence": "中高（OSM-based place point；以飛瀧神社入口及現場印章指示為準）"
+    }
+  ],
+  "map_references": [
+    {
+      "title": "Official Hosshinmon to Hongu route map",
+      "url": "https://www2.tb-kumano.jp/kumano-kodo/pdf/Kumano-Kodo-Nakahechi-Route-Maps-Hongu.pdf"
+    },
+    {
+      "title": "Official Hongu area map",
+      "url": "https://www2.tb-kumano.jp/en/kumano-kodo/pdf/Kumano-Kodo-Nakahechi-Route-Maps-Hongu-Area.pdf"
+    },
+    {
+      "title": "Official Shingu and Katsuura townsite map",
+      "url": "https://www2.tb-kumano.jp/en/kumano-kodo/pdf/Kumano-Kodo-Nakahechi-Route-Maps-Shingu-Katsuura.pdf"
+    }
+  ],
+  "app_import_guide": "https://docs.osmand.net/docs/user/personal/tracks/manage-tracks/",
+  "offline_site_cache": {
+    "included": [
+      "HTML page",
+      "CSS",
+      "JavaScript",
+      "manifest",
+      "icon",
+      "route manifest",
+      "public itinerary JSON",
+      "stamp GPX",
+      "stamp GeoJSON",
+      "offline instructions"
+    ],
+    "not_included": [
+      "third-party basemap tiles",
+      "external PDF maps",
+      "live transit timetables",
+      "weather alerts",
+      "external official web pages"
+    ],
+    "note": "Service worker caches first-party site resources after first successful HTTPS visit. Download official PDF and offline basemap separately in the chosen navigation app."
+  }
+}

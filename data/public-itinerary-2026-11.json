@@ -1,0 +1,244 @@
+{
+  "version": "2026-11-17",
+  "trip_dates": {
+    "start": "2026-11-20",
+    "end": "2026-11-23",
+    "nights": 3
+  },
+  "flights": {
+    "outbound": {
+      "flight": "AK176",
+      "departure": "TPE 15:40",
+      "arrival": "KIX 19:30",
+      "source": "User-provided booking details"
+    },
+    "return": {
+      "flight": "AK179",
+      "departure": "KIX 13:25",
+      "arrival": "TPE 15:45",
+      "checkin_cutoff_target": "12:25, verify booking details"
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-11-20",
+      "key_transit": [
+        {
+          "mode": "JR Kuroshio 31",
+          "from": "Hineno",
+          "depart": "22:04",
+          "to": "Kii-Tanabe",
+          "arrive": "23:41",
+          "status": "Date operation checked; connection after flight remains high risk"
+        }
+      ],
+      "critical": "Confirm Comfort Hotel late check-in and ask if they can provide a Dual Pilgrim booklet before the next morning; availability is not guaranteed."
+    },
+    {
+      "day": 2,
+      "date": "2026-11-21",
+      "key_transit": [
+        {
+          "mode": "Kumano Kodo seasonal express bus",
+          "from": "Kii-Tanabe",
+          "depart": "06:55",
+          "to": "Hosshinmon-oji",
+          "arrive": "08:54",
+          "status": "2026-09-19 to 2026-12-10; daily; no reservation; first come first served; may be full; no transit IC; not a fallback after 06:16 service"
+        },
+        {
+          "mode": "Ryujin Bus regular-service alternative",
+          "from": "Kii-Tanabe",
+          "depart": "06:16",
+          "to": "Hosshinmon-oji",
+          "arrive": "08:37",
+          "status": "Earlier option; choose before leaving hotel. It departs before the 06:55 seasonal express and cannot be used as a later fallback."
+        },
+        {
+          "mode": "Local bus route 301",
+          "from": "Hongu Taisha-mae",
+          "depart": "16:23",
+          "to": "Wataze Onsen",
+          "arrive": "16:42",
+          "status": "Saturday/Sunday/holiday timetable reference; recheck day-of"
+        },
+        {
+          "mode": "Local bus route 80",
+          "from": "Hongu Taisha-mae",
+          "depart": "16:40",
+          "to": "Wataze Onsen",
+          "arrive": "16:52",
+          "status": "Daily timetable reference; recheck day-of"
+        }
+      ],
+      "walk": {
+        "route": "Hosshinmon-oji to Kumano Hongu Taisha and Oyunohara",
+        "distance_km": 7.5,
+        "official_walking_time": "2-3 hours",
+        "recommended_buffer": "At least 3.5 hours for stamps, rest, photos and shrine visit"
+      },
+      "critical": "Physical Dual Pilgrim booklet must be obtained before early departure. Express bus first come and may fill. Confirm hotel dinner and transfers.",
+      "bus_return": [
+        {
+          "mode": "Local bus route 301",
+          "from": "Hongu Taisha-mae",
+          "depart": "16:23",
+          "to": "Watarase Onsen",
+          "arrive": "16:42",
+          "operates": "Saturday/Sunday/national holidays"
+        },
+        {
+          "mode": "Local bus route 80",
+          "from": "Hongu Taisha-mae",
+          "depart": "16:40",
+          "to": "Watarase Onsen",
+          "arrive": "16:52",
+          "operates": "daily"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-11-22",
+      "key_transit": [
+        {
+          "mode": "Nankai Nanki bus route 54",
+          "from": "Wataze Onsen",
+          "depart": "06:52",
+          "to": "Hayatama Taisha-mae",
+          "arrive": "07:48",
+          "status": "Current official PDF timetable reference; confirm actual service"
+        },
+        {
+          "mode": "JR Kisei Line",
+          "from": "Shingu",
+          "depart": "09:42",
+          "to": "Kii-Katsuura",
+          "arrive": "10:04",
+          "status": "Reference only; verify 2026-11-22 timetable"
+        },
+        {
+          "mode": "Nachi bus route 31",
+          "from": "Kii-Katsuura Station",
+          "depart": "10:25",
+          "to": "Nachisan",
+          "arrive": "10:51",
+          "status": "Reference time; check bus operator same day"
+        },
+        {
+          "mode": "Nachi bus route 32",
+          "from": "Nachisan",
+          "depart": "12:32",
+          "to": "Nachi-no-Taki-mae",
+          "arrive": "12:34",
+          "status": "Reference time; check bus operator same day"
+        },
+        {
+          "mode": "Nachi bus return",
+          "from": "Nachi-no-Taki-mae",
+          "depart": "13:59",
+          "to": "Kii-Katsuura Station",
+          "arrive": "14:23",
+          "status": "Target return; later reference 14:34 to 14:58 if missed"
+        }
+      ],
+      "critical": "21-minute luggage/connection window at Kii-Katsuura; do not assume lockers are free. Arrange luggage in advance or travel with one small pack.",
+      "bus_discount": {
+        "route": "54",
+        "from": "Watarase Onsen",
+        "depart": "06:52",
+        "to": "Hayatama Taisha-mae",
+        "arrive": "07:48",
+        "period": "2026-09-19 to 2026-12-10",
+        "eligible_payment": "contactless credit card tap",
+        "eligible_boarding_window": "06:30-06:58 from hot spring area",
+        "fare_yen_regular": 1440,
+        "fare_yen_discounted": 720,
+        "transit_ic_accepted_for_discount": false
+      }
+    },
+    {
+      "day": 4,
+      "date": "2026-11-23",
+      "key_transit": [
+        {
+          "mode": "JR Kuroshio 12",
+          "from": "Kii-Katsuura",
+          "depart": "06:45",
+          "to": "Kii-Tanabe",
+          "arrive": "08:30",
+          "status": "Saturday/holiday operation reference; confirm date-specific operation"
+        },
+        {
+          "mode": "Dual Pilgrim in-person registration",
+          "from": "Tanabe City Kumano Tourism Center",
+          "depart": "09:00",
+          "deadline": "09:17 latest leave target",
+          "status": "Usually 15 minutes; queue extends duration; in-person only"
+        },
+        {
+          "mode": "JR Kuroshio 14",
+          "from": "Kii-Tanabe",
+          "depart": "09:32",
+          "to": "Hineno",
+          "arrive": "11:08",
+          "status": "Daily service reference; confirm same day"
+        },
+        {
+          "mode": "Kansai Airport Line",
+          "from": "Hineno",
+          "depart": "11:21",
+          "to": "KIX",
+          "arrive": "11:33",
+          "status": "Holiday timetable reference; verify departure board on 2026-11-23"
+        }
+      ],
+      "critical": "Registration cannot be completed by mail/email. If the 09:17 leave-by time is missed, prioritize return flight; future registration requires personal attendance at an approved location."
+    }
+  ],
+  "offline": {
+    "included": "First-party page/app/style, stamp point GPX and GeoJSON are cacheable after first HTTPS visit",
+    "not_included": "External base map tiles, official PDFs, live timetables, current weather and external pages; download them separately before the hike"
+  },
+  "drone": {
+    "status": "Application not assumed approved",
+    "candidate_composition": "Oyunohara torii and Kumano River valley, only if site-owner written permission and all MLIT/NPA legal checks permit",
+    "no_fly_assumption": "Do not fly near shrine/temple grounds, waterfall/crowds or over people without explicit legal and site permission.",
+    "national_park_rule": "Ministry of Environment guidance says drone flight and take-off/landing alone generally do not require an application/notification under the Natural Parks Act, but land/facility managers can prohibit flight; avoid wildlife, concentrated visitors, paths, lodging and open-air baths. River/waterfall management rules and national-forest entry procedures may also apply.",
+    "kumano_national_park_contact": {
+      "office": "Yoshino-Kumano National Park Management Office",
+      "telephone": "0735-22-0342",
+      "instruction": "Provide exact take-off/landing coordinates, date, time, altitude and planned route; confirm jurisdiction and any site-owner permissions."
+    },
+    "official_sources": [
+      "https://kanto.env.go.jp/nature/mat/m_5_drone.html",
+      "https://www.env.go.jp/park/office.html",
+      "https://www.mlit.go.jp/en/koku/uas.html",
+      "https://www.npa.go.jp/bureau/security/kogatamujinki/"
+    ]
+  },
+  "lodging_status": {
+    "status": "All three nights booked",
+    "lodgings": [
+      {
+        "day": 1,
+        "name": "Comfort Hotel Kii Tanabe",
+        "status": "booked",
+        "remaining_check": "late arrival / front desk acceptance; inquire about credential booklet availability"
+      },
+      {
+        "day": 2,
+        "name": "Hotel Yamayuri",
+        "status": "booked",
+        "remaining_check": "dinner seating time, shuttle and luggage service details"
+      },
+      {
+        "day": 3,
+        "name": "Hotel Sunrise Katsuura",
+        "status": "booked",
+        "remaining_check": "arrival / luggage storage logistics only"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ya606700.github.io/kumano-kodo-guide/sitemap.xml

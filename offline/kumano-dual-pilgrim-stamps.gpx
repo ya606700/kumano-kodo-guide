@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Kumano Kodo Companion Guide" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>熊野古道雙朝聖 10 顆印章位置</name><desc>10 個集章地標 waypoint；沒有包含官方步道路線軌跡，請搭配官方 PDF 地圖及離線底圖使用。</desc></metadata>
+  <wpt lat="33.861761" lon="135.720693">
+    <name>01 發心門王子 / Hosshinmon-oji</name>
+    <desc>第 1 顆章｜Day 2。第 1 顆章；起登點，先在此確認印章台。 座標來源：National Institute of Japanese Literature / Geoshape, Historic Place Name data。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.8584065143" lon="135.7369852066">
+    <name>02 水吞王子 / Mizunomi-oji</name>
+    <desc>第 2 顆章｜Day 2。第 2 顆章；留意舊校舍地與石碑位置。 座標來源：Kiiminpo Open Data / KiiLife, OSM-based POI record。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.86025" lon="135.756788">
+    <name>03 伏拜王子 / Fushiogami-oji</name>
+    <desc>第 3 顆章｜Day 2。第 3 顆章；官方指出此處可首次望見本宮舊社地方向，是本日最重要觀景停留點。 座標來源：National Institute of Japanese Literature / Geoshape, Historic Place Name data。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.841691" lon="135.772991">
+    <name>04 祓殿王子 / Haraido-oji</name>
+    <desc>第 4 顆章｜Day 2。第 4 顆章；位於本宮大社前約 50 公尺，容易走過頭，請在進本宮前留意。 座標來源：Kiiminpo Open Data / KiiLife, OSM-based POI record。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.8406014" lon="135.7736858">
+    <name>05 熊野本宮大社 / Kumano Hongu Taisha</name>
+    <desc>第 5 顆章｜Day 2。第 5 顆章；先完成參拜，再按現場指示找印章台。 座標來源：Kiiminpo Open Data / KiiLife, OSM-based POI record。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.8343477267" lon="135.7744503021">
+    <name>06 舊社地大齋原 / Oyunohara</name>
+    <desc>第 6 顆章｜Day 2。第 6 顆章；巨型鳥居與杉木林是本宮段收尾，留意境內參拜禮儀。 座標來源：Kiiminpo Open Data / KiiLife, OSM-based POI record。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.732178" lon="135.983673">
+    <name>07 熊野速玉大社 / Kumano Hayatama Taisha</name>
+    <desc>第 7 顆章｜Day 3。第 7 顆章；新宮市區參拜點，注意回 JR 新宮站步行時間。 座標來源：National Institute of Japanese Literature / Geoshape, Historic Place Name data。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.668651" lon="135.890133">
+    <name>08 熊野那智大社 / Kumano Nachi Taisha</name>
+    <desc>第 8 顆章｜Day 3。第 8 顆章；那智山上段，預留參拜與移動時間。 座標來源：National Institute of Japanese Literature / Geoshape, Historic Place Name data。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.669148" lon="135.889849">
+    <name>09 青岸渡寺 / Seiganto-ji</name>
+    <desc>第 9 顆章｜Day 3。第 9 顆章；與那智大社相鄰，留意殿堂、參道與三重塔視角。 座標來源：National Institute of Japanese Literature / Geoshape, Historic Place Name data。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+  <wpt lat="33.6742" lon="135.88767">
+    <name>10 飛瀧神社 / Hiro-jinja / Nachi Falls</name>
+    <desc>第 10 顆章｜Day 3。第 10 顆章；位於那智瀑布下方，與熊野那智大社是不同參拜點。 座標來源：Mapcarta location record based on OpenStreetMap。座標代表地標點，不保證是印章台精確位置。</desc>
+    <type>Official dual-pilgrim stamp point</type>
+  </wpt>
+</gpx>

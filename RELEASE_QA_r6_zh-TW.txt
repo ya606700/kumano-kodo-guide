@@ -1,0 +1,17 @@
+日本朝聖之路｜r6 Google My Maps 一鍵開啟版 QA
+
+檢查項目：
+- index.html 可由 HTML parser 正常解析
+- 本機 href 缺檔：預計 0
+- HTML 重複 ID：預計 0
+- Google My Maps 直連 map ID：16-FastABm3-u0kARUCDCnZQlQyDMtc0
+- Google My Maps URL 使用 view 檢視模式
+- 網站主按鈕文字：一鍵開啟完整 37 點地圖
+- CSV 仍保留為備份下載，不是必要匯入步驟
+- 37 個原有單點定位按鈕保留
+- Service Worker cache：kumano-guide-github-pages-v6
+
+分享權限限制：
+- 網站程式無法讀取／更改使用者 My Maps 的分享設定。
+- 地圖擁有者需自行將一般存取設為「知道連結的任何人」，權限為「檢視者」，旅伴才可透過網站查看。
+- 本機 QA 不代表 Google 帳號端已實際授權成功；已提供無痕視窗測試步驟。

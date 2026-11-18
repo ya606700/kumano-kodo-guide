@@ -1,0 +1,15 @@
+日本朝聖之路｜r6 Google 我的地圖直連更新說明
+日期：2026-11-18
+
+本次更新
+1. 網站離線地圖區塊改為一鍵開啟使用者已建立的「熊野古道 2026」Google My Maps。
+2. 使用檢視模式連結：https://www.google.com/maps/d/view?mid=16-FastABm3-u0kARUCDCnZQlQyDMtc0&usp=sharing
+3. 移除「建立新地圖／重新匯入 CSV」作為日常查看步驟的舊流程。
+4. CSV 下載保留為備份用途；37 個地點的單點定位按鈕全部保留。
+5. 新增分享權限提醒：若需讓網站訪客查看，My Maps 一般存取須設「知道連結的任何人」，權限設為「檢視者」。
+6. 更新離線 README、網站 README、結構化行程資料及 Google Maps 設定說明。
+7. Service Worker cache version 從 v5 升至 v6，要求瀏覽器更新頁面與核心資源。
+
+注意
+- 網站僅保存地圖檢視連結，不能替地圖擁有者改動 Google 分享權限。
+- 需在 Google My Maps 內自行儲存圖層修改；網站連結會繼續開啟同一張地圖。

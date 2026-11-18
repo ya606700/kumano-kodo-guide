@@ -1,0 +1,28 @@
+熊野古道 r6｜Google 我的地圖一鍵開啟設定
+
+網站已連接到使用者建立的「熊野古道 2026」自訂地圖：
+https://www.google.com/maps/d/view?mid=16-FastABm3-u0kARUCDCnZQlQyDMtc0&usp=sharing
+
+【網站訪客如何查看】
+1. 在網站「離線地圖」區塊按「一鍵開啟完整 37 點地圖」。
+2. Google 我的地圖會以檢視模式開啟完整圖層。
+3. 手機可選擇使用 Google Maps 開啟；若 Google 要求登入，請使用已獲得檢視權限的帳號。
+
+【重要：地圖分享權限】
+網站連結本身不會自動改變 Google 地圖的存取權。若要讓持有網站連結的旅伴查看：
+1. 以地圖擁有者帳號開啟 Google 我的地圖。
+2. 按「分享」。
+3. 在「一般存取」選「知道連結的任何人」。
+4. 權限設為「檢視者」，不要設定為編輯者。
+5. 儲存後，再用無痕視窗或未登入的瀏覽器測試檢視連結。
+
+若維持「受限制」，只有被授權的 Google 帳號能看到地圖，其他旅伴可能會看到存取權提示。
+
+【之後修改地圖】
+- 圖釘、圖層、顏色、名稱與備註都在 Google 我的地圖中修改並儲存。
+- 網站按鈕固定連到同一個 map ID；不需要每次修改圖釘都重新部署網站。
+- 網站仍保留 37 筆 CSV 備份下載，以及每一地點的單點 Google Maps 定位連結。
+
+Google 官方說明：
+- 分享地圖：https://support.google.com/mymaps/answer/3109452?hl=zh-Hant
+- 建立或開啟地圖：https://support.google.com/mymaps/answer/3024454?hl=zh-Hant

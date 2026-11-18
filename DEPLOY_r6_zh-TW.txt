@@ -1,0 +1,12 @@
+GitHub Pages 更新步驟｜熊野古道 r6
+
+1. 下載並解壓縮本 ZIP。
+2. 將解壓縮後的所有檔案與資料夾內容，上傳到 GitHub 專案 ya606700/kumano-kodo-guide 的 main 分支根目錄。
+3. 選擇覆蓋同名檔案；不要把整個 ZIP 檔案本身上傳代替解壓縮內容。
+4. 確認 index.html、sw.js、README.md、data/、offline/ 等都在 repository 根目錄。
+5. Commit changes。
+6. 等待 GitHub Pages 更新後，手機重新整理網站；若仍顯示舊版，關閉網頁再開啟，或清除該網站快取。
+
+本版 Service Worker 已升級為 v6，會清除舊版 kumano-guide-github-pages 快取並重新快取核心檔案。
+
+本次更新重點：網站地圖主按鈕一鍵打開使用者已建立的 Google My Maps，不需重新匯入 CSV。

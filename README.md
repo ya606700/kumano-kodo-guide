@@ -31,11 +31,11 @@
 - 官方 Maps URLs 的多站導航有平台限制，因此每一個 POI 另有單點定位；Google Maps 的步行路線不可替代官方熊野古道步道圖。
 
 
-## Google Maps（r6）
+## Google Maps（r7）
 
 - 網站「離線地圖」主按鈕已改為一鍵開啟使用者建立的熊野古道 2026 自訂地圖。
-- 檢視連結：`https://www.google.com/maps/d/view?mid=16-FastABm3-u0kARUCDCnZQlQyDMtc0&usp=sharing`
+- 檢視連結：`https://www.google.com/maps/d/viewer?mid=16-FastABm3-u0kARUCDCnZQlQyDMtc0&usp=sharing`
 - 地圖包含 37 個地點；不必每次由網站重新建立或匯入 CSV。
 - Google My Maps 分享權限需由地圖擁有者設定為「知道連結的任何人 → 檢視者」，網站程式無法代替使用者修改 Google 權限。
 - 網站仍保留 CSV 備份及每個地點的單點定位連結。
-- Service Worker cache 已升至 v6，避免手機沿用舊版地圖區塊。
+- Service Worker cache 已升至 v7，避免手機沿用舊版地圖區塊。

@@ -1,0 +1,15 @@
+日本朝聖之路｜r7 Google 我的地圖 404 修正更新
+
+修正原因：r6 使用錯誤網址路徑 /maps/d/view?mid=...，Google My Maps 正確的檢視路徑為 /maps/d/viewer?mid=...。
+
+更新內容：
+1. 修正網站「一鍵開啟完整 37 點地圖」按鈕網址。
+2. 同步更新 public itinerary JSON、offline map manifest、README 與離線說明。
+3. 修正手機地圖提示，移除不合時宜的舊匯入步驟提醒。
+4. Service Worker 快取版號從 v6 升至 v7，促使手機取得新網址。
+5. 保留 37 個單點定位、CSV 備份、GPX、GeoJSON、既有行程與版面。
+
+新檢視網址：
+https://www.google.com/maps/d/viewer?mid=16-FastABm3-u0kARUCDCnZQlQyDMtc0&usp=sharing
+
+注意：如其他人仍看不到地圖，請至 Google My Maps 分享設定，將一般存取設為「知道連結的任何人」，權限選「檢視者」。

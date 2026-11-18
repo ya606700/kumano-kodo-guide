@@ -1,0 +1,11 @@
+GitHub Pages 更新步驟｜熊野古道 r7
+
+1. 下載並解壓縮本 ZIP。
+2. 將解壓縮後所有檔案與資料夾內容，上傳到 GitHub 專案 ya606700/kumano-kodo-guide 的 main 分支根目錄。
+3. 覆蓋同名檔案；不要只上傳 ZIP 本身。
+4. 確認 index.html、sw.js、README.md、data/、offline/ 等均位於 repository 根目錄。
+5. Commit changes。
+6. 等待 GitHub Pages 更新後，重新開啟網站測試「一鍵開啟完整 37 點地圖」。
+
+r7 修正：r6 主按鈕的 /maps/d/view? 路徑造成 404，現已改成 /maps/d/viewer?。
+Service Worker cache 已升級為 v7，啟用後會清除舊版 kumano-guide-github-pages 快取並重新快取核心資源。

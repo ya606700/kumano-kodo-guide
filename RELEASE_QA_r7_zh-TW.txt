@@ -1,0 +1,22 @@
+日本朝聖之路｜r7 Google My Maps 404 修正版 QA
+
+根本原因：r6 將檢視網址寫成 /maps/d/view?mid=...，此路徑錯誤，點擊網站主按鈕會導致 404。
+正確檢視路徑：/maps/d/viewer?mid=...
+
+本次修正：
+- index.html 主按鈕使用 https://www.google.com/maps/d/viewer?mid=16-FastABm3-u0kARUCDCnZQlQyDMtc0&usp=sharing
+- data/public-itinerary-2026-11.json 與 data/offline-map-manifest.json 同步更新
+- offline/README-zh-TW.txt、README.md 與 Google Maps 設定文件同步更新
+- Service Worker cache 升級為 kumano-guide-github-pages-v7
+- 修正手機提示文字，移除舊版「匯入完成後不要再點建立地圖」說明
+
+結構檢查：
+- index.html 可由 HTML parser 正常解析
+- JSON manifest 可正常解析
+- ZIP 內不應再出現 /maps/d/view? 舊錯誤網址
+- 37 個 POI 單點定位連結保留
+- 主按鈕 map ID 保持 16-FastABm3-u0kARUCDCnZQlQyDMtc0
+
+權限限制：
+- 本機檢查可驗證網址路徑及 map ID，但無法登入地圖擁有者 Google 帳號確認分享權限。
+- 請將 My Maps 一般存取設定為「知道連結的任何人」及「檢視者」，並以無痕視窗測試。
